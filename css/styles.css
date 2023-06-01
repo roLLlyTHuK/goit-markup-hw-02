@@ -43,7 +43,6 @@ body{
     color: var(--navi-blue-color);
 }
 .list{
-    font-style: normal;
     list-style-type: none;
 }
 .nav-menu-item{
@@ -62,6 +61,9 @@ body{
 }
 .nav-menu-item:focus{
     color:var(--ocean-color);
+}
+address{
+    font-style: normal;
 }
 .list-contacts{
     font-size: 16px;
@@ -116,6 +118,11 @@ body{
     color: var(--white-color);
     background-color: var(--iris-color);
     border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .order-service-btn:hover{
     background-color: var(--ocean-color);
